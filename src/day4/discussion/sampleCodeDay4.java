@@ -1,6 +1,7 @@
 package day4.discussion;
 
 public class sampleCodeDay4 {
+    /*
     public static void main(String[] args) {
         Assignment assignment = new Assignment();
         
@@ -14,6 +15,7 @@ public class sampleCodeDay4 {
             System.out.println("Double: " + assignment.grade);
             System.out.println("Char: " + assignment.remark);
     } 
+    */
 }
 //Activity 1: Exploring Java Data Types and Variables in Java
 class Assignment {
