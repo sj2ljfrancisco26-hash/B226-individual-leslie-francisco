@@ -1,6 +1,7 @@
 package day5_Activity2;
 
 public class Activity2_Francisco {
+    /*
        public static void main(String[] args) {
         
         String cyan = "\u001B[36m";
@@ -31,6 +32,7 @@ public class Activity2_Francisco {
         System.out.printf(red + "Utility Bill:     %.1f%% %n", utilPercentage);
         System.out.println(cyan + "------------------------");
 
-        System.out.println(yellow + "Remaining Balance: ₱" + green + remainingBalance);                 
+        System.out.println(yellow + "Remaining Balance: ₱" + green + remainingBalance);          
     }
+    */
 }
