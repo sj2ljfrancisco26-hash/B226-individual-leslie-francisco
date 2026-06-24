@@ -1,6 +1,7 @@
 package day6.dsicussion;
 
 public class day6_sample {
+    /*
     public static void main(String[] args) {
         // > < == !=
         int num = 100;
@@ -26,12 +27,13 @@ public class day6_sample {
         T + F = T
         F + T = T
         F + F = F
-        */
+        
         //boolean result = num < num2 && num > num2;
         //System.out.println("Logical &&: " + result);
         
         //Ternary Operator
         String result = (num > 0) ? "Positive" : "Negative";
         System.out.println("The Number is: " + result);
-    }
+     
+    }*/  
 }
