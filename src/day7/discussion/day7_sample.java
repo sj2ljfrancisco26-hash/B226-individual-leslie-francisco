@@ -2,9 +2,7 @@ package day7.discussion;
 import java.util.Scanner;
 
 public class day7_sample {
-    public static void main(String[] args) {
-      
-    }
+    
 }
 /*
 class ternaryOperator{
