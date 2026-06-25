@@ -1,6 +1,7 @@
 package day6.activity;
 import java.util.Scanner;
 public class activity3_Francisco {
+    /*
     public static void main(String[] args) {
         //Logical && Operator
      logicalOperatorAnd LoOpAnd = new logicalOperatorAnd();
@@ -15,8 +16,9 @@ public class activity3_Francisco {
      ternaryOperator2 TeOp2 = new ternaryOperator2();
      TeOp2.whichIsLarger();
     }
+    */
 }
-
+/*
 class logicalOperatorAnd{
         public static String red = "\u001B[31m";
         public static String cyan = "\u001B[36m";
@@ -82,3 +84,4 @@ class ternaryOperator2{
         System.out.println(logicalOperatorAnd.cyan + "------------------------------");
     }
 }
+*/
