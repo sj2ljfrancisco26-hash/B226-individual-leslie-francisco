@@ -1,4 +1,4 @@
-package day4.discussion;
+package day4.discussion.DataTypes;
 
 public class sampleCodeDay4 {
     /*

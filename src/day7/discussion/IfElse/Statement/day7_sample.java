@@ -1,4 +1,4 @@
-package day7.discussion;
+package day7.discussion.IfElse.Statement;
 import java.util.Scanner;
 
 public class day7_sample {

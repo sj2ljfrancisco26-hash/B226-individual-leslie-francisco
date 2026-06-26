@@ -1,4 +1,4 @@
-package day6.dsicussion;
+package day6.dsicussion.Logical.Operator;
 
 public class day6_sample {
     /*

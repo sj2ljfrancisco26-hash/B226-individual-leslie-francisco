@@ -1,6 +1,7 @@
 package day7.Activity;
 import java.util.Scanner;
 public class activity4_Day7 {
+    /*
     public static void main(String[] args) {
       Menu menu = new Menu();
       menu.mainMenu();
@@ -41,4 +42,5 @@ class Menu{
         System.out.print(red + "-----------------");
         scanner.close();   
     }
+*/
 }
