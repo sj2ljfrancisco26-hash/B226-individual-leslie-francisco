@@ -1,4 +1,4 @@
-package day5_Activity2;
+package day5.activity;
 
 public class Activity2_Francisco {
     /*

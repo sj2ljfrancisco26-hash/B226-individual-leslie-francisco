@@ -1,4 +1,4 @@
-package day7.Activity;
+package day7.activity;
 import java.util.Scanner;
 public class activity4_Day7 {
     /*

@@ -40,18 +40,3 @@ public class day8_sample3 {
     }
     }
 }
-/*
-            Age: 0 - 12 -> Child 
-                Age: 0 - 5 ->  Specifically, Toddler
-                Age: 6 - 12 ->  Specifically, Pre-Teen
-            Age: 13 - 19 -> Teenager
-                Age: 13 - 15 ->  Specifically, Eary Teen
-                Age: 16 - 19 ->  Specifically, Late Teen
-            Age: 20 - 59 -> Adult
-                Age: 20 - 35 ->  Specifically, Young Adult
-                Age: 36 - 59 ->  Specifically, Middle-Aged
-            Age: 60 - 120 -> Senior Citizen
-                Age: 60 - 75 ->  Specifically, Young Senior
-                Age: 76 - 120 ->  Specifically, Elderly
-            Invalid Age -> Invalid Input
-        */
