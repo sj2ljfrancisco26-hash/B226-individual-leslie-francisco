@@ -1,3 +1,5 @@
+package day9.activity;
+
 import java.util.Scanner;
 
 public class activity5_ForLoopProgressionPlan {
