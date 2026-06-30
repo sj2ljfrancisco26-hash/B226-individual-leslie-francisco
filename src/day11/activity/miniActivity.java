@@ -1,4 +1,4 @@
-package day11;
+package day11.activity;
 
 public class miniActivity {
     public static void main(String[] args) {
