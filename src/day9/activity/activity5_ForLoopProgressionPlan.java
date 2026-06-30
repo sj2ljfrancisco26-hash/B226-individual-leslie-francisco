@@ -46,6 +46,27 @@ class Act5_2{
 }
 class Act5_3{
     public void ArithSequence(){
+        Scanner scanner = new Scanner(System.in);
         
+        System.out.print("Enter start number: ");
+        int start = scanner.nextInt();
+        System.out.print("Enter common difference: ");
+        int diff = scanner.nextInt();
+        System.out.print("Enter number of terms (n): ");
+        int n = scanner.nextInt();
+        
+        int current = start;
+        int sum = 0;
+        StringBuilder sb = new StringBuilder();
+        
+        for (int i = 1; i <= n; i++) {
+            sum += current;
+            sb.append(current);
+            if (i < n) sb.append(" + ");
+            current += diff;
+        }
+        
+        System.out.println(sb.toString() + " = " + sum);
+        scanner.close();
     }
 }
