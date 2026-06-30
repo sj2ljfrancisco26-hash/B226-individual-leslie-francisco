@@ -33,11 +33,9 @@ public void MultiplicationTables() {
         System.out.println("---Multiplication Table---");
         System.out.println();
         
-        // Outer loop: controls which multiplication table to display
+        
         for (int table = 1; table <= 10; table++) {
-            System.out.println("Multiplication Table of " + table + ":");
-            
-            // Inner loop: displays 1 to 10 multiples for the current table
+            System.out.println("Multiplication Table of " + table + ":");                    
             for (int i = 1; i <= 10; i++) {
                 System.out.println(table + " x " + i + " = " + (table * i));
             }
