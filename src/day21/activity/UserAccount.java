@@ -80,8 +80,7 @@ public class UserAccount {
         if (lastName != null) sb.append(" ").append(lastName);
         return sb.toString().trim();
     }
-    
-  
+     
     public void UserEntry(){
             Scanner scanner = new Scanner(System.in);
         System.out.println("===Create a User Account===");
