@@ -12,10 +12,8 @@ public class UserAccount {
     private String email;
     private String password;
 
-    // Default constructor
     public UserAccount() {}
 
-    // Parameterized constructor with validation
     public UserAccount(String firstName, String middleName, String lastName,
                        String address, String email, String password) {
         this.firstName = firstName;
@@ -26,7 +24,6 @@ public class UserAccount {
         this.password = validatePassword(password);
     }
 
-    // Getters
     public String getFirstName() { return firstName; }
     public String getMiddleName() { return middleName; }
     public String getLastName() { return lastName; }
@@ -34,7 +31,6 @@ public class UserAccount {
     public String getEmail() { return email; }
     public String getPassword() { return password; }
 
-    // Setters (with validation for email and password)
     public void setFirstName(String firstName) { this.firstName = firstName; }
     public void setMiddleName(String middleName) { this.middleName = middleName; }
     public void setLastName(String lastName) { this.lastName = lastName; }
@@ -48,7 +44,6 @@ public class UserAccount {
         this.password = validatePassword(password);
     }
 
-    // Email validation (standard format)
     private String validateEmail(String email) {
         if (email == null || email.trim().isEmpty()) {
             throw new IllegalArgumentException("Email cannot be empty");
@@ -60,7 +55,6 @@ public class UserAccount {
         return email;
     }
 
-    // Password validation (minimum 8 chars, uppercase, lowercase, digit)
     private String validatePassword(String password) {
         if (password == null || password.length() < 8) {
             throw new IllegalArgumentException("Password must be at least 8 characters long");
@@ -77,7 +71,6 @@ public class UserAccount {
         return password;
     }
 
-    // Helper method for full name
     public String getFullName() {
         StringBuilder sb = new StringBuilder();
         if (firstName != null) sb.append(firstName);
@@ -87,8 +80,7 @@ public class UserAccount {
         if (lastName != null) sb.append(" ").append(lastName);
         return sb.toString().trim();
     }
-    
-  
+     
     public void UserEntry(){
             Scanner scanner = new Scanner(System.in);
         System.out.println("===Create a User Account===");
@@ -119,7 +111,7 @@ public class UserAccount {
             System.out.println("Full Name : " + user.getFullName());
             System.out.println("Email     : " + user.getEmail());
             System.out.println("Address   : " + user.getAddress());
-            // Password is intentionally not displayed for security reasons
+            
         } catch (IllegalArgumentException e) {
             System.out.println("Error creating account: " + e.getMessage());
         }
