@@ -47,7 +47,7 @@ public class TodoManager {
                     }
                     System.out.print("Enter the index of the task to update (1-based): ");
                     int updateIndex = scanner.nextInt() - 1;
-                    scanner.nextLine(); // Consume newline
+                    scanner.nextLine();
                     if (updateIndex >= 0 && updateIndex < task.size()) {
                         System.out.print("Enter the new task: ");
                         String updatedTask = scanner.nextLine().trim();
